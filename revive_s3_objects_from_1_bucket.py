@@ -28,7 +28,7 @@ if bucket_name == 'name-of-the-bucket':
 # Syntax:
 # datetime(year, month, day, hour, minute, second, microsecond, UTC-00:00)
 # Example:
-# point_of_restore = datetime.datetime(2022, 5, 6, 16, 0, 0, 0, pytz.UTC)
+point_of_restore = datetime.datetime(2022, 09, 01, 00, 0, 0, 0, pytz.UTC)
 
 try:
     logger.info("Variable point_of_restore has been set as %s", point_of_restore)
